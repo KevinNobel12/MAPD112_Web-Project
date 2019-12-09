@@ -1,0 +1,20 @@
+.bg-clr {
+    background: url(back2.jpg)
+}
+
+.corner
+{
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width:735px) and (orientation : landscape)
+{
+    .body {
+    display: none;
+    }
+}
+.button {
+    position: fixed;
+    bottom: 10px;
+    right: 20px; 
+}
